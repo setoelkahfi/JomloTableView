@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		02771B90736B785DC8EEE580 /* Pods_JomloTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JomloTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		044CF1D5E803D7F3DBAD2530 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		044CF1D5E803D7F3DBAD2530 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1DF5A127CF52147610B75ADE /* Pods-JomloTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Example/Pods-JomloTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JomloTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JomloTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9A33E5FF3CCC9BDCBA18C58F /* Pods_JomloTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JomloTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B02AFC91A81D2EBF28A0B26F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B02AFC91A81D2EBF28A0B26F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B828666E6D8F9450941A36AB /* Pods-JomloTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Example/Pods-JomloTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BAB533BC282592A3CAD7E959 /* JomloTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JomloTableView.podspec; path = ../JomloTableView.podspec; sourceTree = "<group>"; };
+		BAB533BC282592A3CAD7E959 /* JomloTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JomloTableView.podspec; path = ../JomloTableView.podspec; sourceTree = "<group>"; };
 		D67A39B8BF2D4AB708B1879B /* Pods-JomloTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Tests/Pods-JomloTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E555BEE30E2659F27C50D6B8 /* Pods-JomloTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Tests/Pods-JomloTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -496,6 +496,7 @@
 			baseConfigurationReference = 1DF5A127CF52147610B75ADE /* Pods-JomloTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JomloTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +511,7 @@
 			baseConfigurationReference = B828666E6D8F9450941A36AB /* Pods-JomloTableView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JomloTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
