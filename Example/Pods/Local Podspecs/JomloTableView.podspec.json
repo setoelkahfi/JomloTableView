@@ -1,0 +1,22 @@
+{
+  "name": "JomloTableView",
+  "version": "0.1.0",
+  "summary": "A short description of JomloTableView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/setoelkahfi/JomloTableView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "setoelkahfi": "setoelkahfi@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/setoelkahfi/JomloTableView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JomloTableView/Classes/**/*"
+}

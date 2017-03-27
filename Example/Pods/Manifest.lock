@@ -1,0 +1,16 @@
+PODS:
+  - JomloTableView (0.1.0)
+
+DEPENDENCIES:
+  - JomloTableView (from `../`)
+
+EXTERNAL SOURCES:
+  JomloTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JomloTableView: 479e296a4a64f82a56808cc6579df28c4f130c87
+
+PODFILE CHECKSUM: fc66bc4fd87f5f902259a225d37e438952ce5aeb
+
+COCOAPODS: 1.1.1
