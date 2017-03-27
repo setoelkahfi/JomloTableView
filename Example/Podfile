@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JomloTableView_Example' do
+  pod 'JomloTableView', :path => '../'
+
+  target 'JomloTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
