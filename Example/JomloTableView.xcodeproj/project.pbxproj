@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		84CBD496B3AF199DDDFABEA5 /* Pods_JomloTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02771B90736B785DC8EEE580 /* Pods_JomloTableView_Example.framework */; };
+		BDFF41491E8A871900D14CE7 /* SimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF41481E8A871900D14CE7 /* SimpleCell.swift */; };
+		BDFF414B1E8A873600D14CE7 /* SimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFF414A1E8A873600D14CE7 /* SimpleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		02771B90736B785DC8EEE580 /* Pods_JomloTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JomloTableView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		044CF1D5E803D7F3DBAD2530 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		044CF1D5E803D7F3DBAD2530 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1DF5A127CF52147610B75ADE /* Pods-JomloTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Example/Pods-JomloTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JomloTableView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JomloTableView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9A33E5FF3CCC9BDCBA18C58F /* Pods_JomloTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JomloTableView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B02AFC91A81D2EBF28A0B26F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B02AFC91A81D2EBF28A0B26F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B828666E6D8F9450941A36AB /* Pods-JomloTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Example/Pods-JomloTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BAB533BC282592A3CAD7E959 /* JomloTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JomloTableView.podspec; path = ../JomloTableView.podspec; sourceTree = "<group>"; };
+		BAB533BC282592A3CAD7E959 /* JomloTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JomloTableView.podspec; path = ../JomloTableView.podspec; sourceTree = "<group>"; };
+		BDFF41481E8A871900D14CE7 /* SimpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCell.swift; sourceTree = "<group>"; };
+		BDFF414A1E8A873600D14CE7 /* SimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCell.xib; sourceTree = "<group>"; };
 		D67A39B8BF2D4AB708B1879B /* Pods-JomloTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Tests/Pods-JomloTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E555BEE30E2659F27C50D6B8 /* Pods-JomloTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Tests/Pods-JomloTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +103,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				BDFF41481E8A871900D14CE7 /* SimpleCell.swift */,
+				BDFF414A1E8A873600D14CE7 /* SimpleCell.xib */,
 			);
 			name = "Example for JomloTableView";
 			path = JomloTableView;
@@ -215,10 +221,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V75BU3KM37;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V75BU3KM37;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -249,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				BDFF414B1E8A873600D14CE7 /* SimpleCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -363,6 +372,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				BDFF41491E8A871900D14CE7 /* SimpleCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +506,7 @@
 			baseConfigurationReference = 1DF5A127CF52147610B75ADE /* Pods-JomloTableView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V75BU3KM37;
 				INFOPLIST_FILE = JomloTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +521,7 @@
 			baseConfigurationReference = B828666E6D8F9450941A36AB /* Pods-JomloTableView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V75BU3KM37;
 				INFOPLIST_FILE = JomloTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E555BEE30E2659F27C50D6B8 /* Pods-JomloTableView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = V75BU3KM37;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D67A39B8BF2D4AB708B1879B /* Pods-JomloTableView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = V75BU3KM37;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -7,12 +7,33 @@
 //
 
 import UIKit
+import JomloTableView
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var jomloTableView: JomloTableView!
+    
+    var exampleSection = JomloTableViewSection()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let row = SimpleRow()
+        
+        exampleSection.addRow(row: row)
+        exampleSection.addRow(row: row)
+        exampleSection.addRow(row: row)
+        exampleSection.addRow(row: row)
+        exampleSection.addRow(row: row)
+        exampleSection.addRow(row: row)
+        exampleSection.addRow(row: row)
+        exampleSection.addRow(row: row)
+        exampleSection.addRow(row: row)
+        
+        jomloTableView.addSection(section: exampleSection)
+        jomloTableView.reloadData()
+        
     }
 
     override func didReceiveMemoryWarning() {

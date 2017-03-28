@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JomloTableView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JomloTableView.'
+  s.summary          = 'A UITableView with detachable section and row.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+JomloTableView uses detachable section and row. You can add multiple section individually and add rows to each section. See example project for how to use this library.
                        DESC
 
   s.homepage         = 'https://github.com/setoelkahfi/JomloTableView'
