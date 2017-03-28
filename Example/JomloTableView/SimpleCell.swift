@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JomloTableView
 
 class SimpleCell: JomloTableViewCell {
 
@@ -18,4 +19,24 @@ class SimpleCell: JomloTableViewCell {
     }
     */
 
+}
+
+class SimpleRow: JomloTableViewRow {
+    
+    override var identifier: String {
+        return "SimpleCell"
+    }
+    
+    override var rowHeight: CGFloat {
+        return 80
+    }
+    
+    override var estimatedRowHeight: CGFloat {
+        return 80
+    }
+    
+    override func populateView(cell: JomloTableViewCell) {
+    
+    }
+    
 }
