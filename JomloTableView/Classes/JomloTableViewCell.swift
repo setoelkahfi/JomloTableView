@@ -8,6 +8,6 @@
 
 import Foundation
 
-public class JomloTableViewCell: UITableViewCell {
+open class JomloTableViewCell: UITableViewCell {
     
 }

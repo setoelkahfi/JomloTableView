@@ -13,18 +13,25 @@ public class JomloTableView: UITableView {
     // Table view section
     var sections = Array<JomloTableViewSection>()
     
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        self.delegate = self
+        self.dataSource = self
+        self.tableFooterView = UIView()
+    }
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    public func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return sections.count
     }
     
     // Add single section to table view
-    func addSection(section: JomloTableViewSection) {
+    public func addSection(section: JomloTableViewSection) {
         sections.append(section)
     }
     
     // Remove all section in table view
-    func removeAllSection() {
+    public func removeAllSection() {
         sections.removeAll()
     }
     

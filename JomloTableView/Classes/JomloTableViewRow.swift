@@ -8,17 +8,17 @@
 
 import Foundation
 
-public class JomloTableViewRow: NSObject {
+open class JomloTableViewRow: NSObject {
     
-    var identifier: String {
+    open var identifier: String {
         return ""
     }
     
-    var rowHeight: CGFloat {
+    open var rowHeight: CGFloat {
         return 0
     }
     
-    var estimatedRowHeight: CGFloat {
+    open var estimatedRowHeight: CGFloat {
         return 0
     }
     
@@ -26,20 +26,20 @@ public class JomloTableViewRow: NSObject {
     // Use IBAction on single view componen if you need to register action for a particular view inside the row
     internal var onClicked: ((JomloTableViewRow) -> (Void))?
     
-    func setOnItemClickedCallback(clicked:@escaping (JomloTableViewRow) -> Void){
+    open func setOnItemClickedCallback(clicked:@escaping (JomloTableViewRow) -> Void){
         onClicked = clicked
     }
     
     
-    func populateView(cell: JomloTableViewCell) {
+    open func populateView(cell: JomloTableViewCell) {
         fatalError("Should be overrided")
     }
     
-    func willDisplay(cell: UITableViewCell){
+    open func willDisplay(cell: UITableViewCell){
         cell.separatorInset = UIEdgeInsetsMake(0, 6, 0, 6)
     }
     
-    func onItemClicked() {
+    open func onItemClicked() {
         if let clicked = onClicked {
             clicked(self)
         }

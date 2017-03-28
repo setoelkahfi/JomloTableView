@@ -12,20 +12,24 @@ public class JomloTableViewSection {
     
     var rows = Array<JomloTableViewRow>()
     
+    public init() {
+        
+    }
+    
     // Count rows in this table view section
-    var count: Int {
+    public var count: Int {
         get {
             return rows.count
         }
     }
     
     // Add a single row for this table view section
-    func addRow(row: JomloTableViewRow) {
+    public func addRow(row: JomloTableViewRow) {
         self.rows.append(row);
     }
     
     // Remove all rows in this table view section
-    func removeAllRows() {
+    public func removeAllRows() {
         self.rows.removeAll()
     }
     
