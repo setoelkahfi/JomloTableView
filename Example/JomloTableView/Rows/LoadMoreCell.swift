@@ -11,6 +11,6 @@ import JomloTableView
 
 class LoadMoreCell: JomloTableViewCell {
 
-    
+    @IBOutlet var activityIndicator: UIActivityIndicatorView!
     
 }

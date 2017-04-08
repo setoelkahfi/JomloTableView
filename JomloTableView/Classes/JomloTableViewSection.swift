@@ -41,4 +41,14 @@ public class JomloTableViewSection {
         self.rows.removeAll()
     }
     
+    // Remove last row in this table view section
+    public func removeLastRow() {
+        self.rows.removeLast()
+    }
+    
+    // Remove first row in this table view section
+    public func removeFirstRow() {
+        self.rows.removeFirst()
+    }
+    
 }

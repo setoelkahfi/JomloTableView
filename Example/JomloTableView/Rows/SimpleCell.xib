@@ -15,17 +15,17 @@
             <rect key="frame" x="0.0" y="0.0" width="598" height="120"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jxp-d1-zT1" id="150-Wq-GWr">
-                <rect key="frame" x="0.0" y="0.0" width="598" height="119.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="598" height="120"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUm-db-ewC" userLabel="Title">
-                        <rect key="frame" x="8" y="8" width="582" height="19.5"/>
+                        <rect key="frame" x="8" y="8" width="582" height="20"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multi line explanation" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4C-y0-zNM" userLabel="Sub title">
-                        <rect key="frame" x="8" y="27.5" width="582" height="84"/>
+                        <rect key="frame" x="8" y="28" width="582" height="84"/>
                         <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
                         <color key="textColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
