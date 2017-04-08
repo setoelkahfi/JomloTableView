@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tableView>
-                    <navigationItem key="navigationItem" title="JomloTableView" id="82t-X7-det">
+                    <navigationItem key="navigationItem" title="JomloTableView Example" id="82t-X7-det">
                         <barButtonItem key="backBarButtonItem" title="Back" id="EVO-cv-TLr"/>
                     </navigationItem>
                     <connections>

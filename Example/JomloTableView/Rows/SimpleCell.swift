@@ -11,16 +11,19 @@ import JomloTableView
 
 class SimpleCell: JomloTableViewCell {
 
-    @IBOutlet var textlabel: UILabel!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var subTitleLabel: UILabel!
 
 }
 
 class SimpleRow: JomloTableViewRow {
     
-    var text: String!
+    var title: String!
+    var subTitle: String!
     
-    init(_ text: String) {
-        self.text = text
+    init(_ title: String, subTitle: String) {
+        self.title = title
+        self.subTitle = subTitle
     }
     
     
@@ -29,16 +32,17 @@ class SimpleRow: JomloTableViewRow {
     }
     
     override var rowHeight: CGFloat {
-        return 80
+        return UITableViewAutomaticDimension
     }
     
     override var estimatedRowHeight: CGFloat {
-        return 80
+        return 64
     }
     
     override func populateView(cell: JomloTableViewCell) {
         let cell = cell as! SimpleCell
-        cell.textlabel.text = text
+        cell.titleLabel.text = title
+        cell.subTitleLabel.text = subTitle
     }
     
 }
