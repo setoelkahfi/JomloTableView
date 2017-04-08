@@ -11,32 +11,38 @@ import JomloTableView
 
 class SimpleCell: JomloTableViewCell {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var subTitleLabel: UILabel!
 
 }
 
 class SimpleRow: JomloTableViewRow {
+    
+    var title: String!
+    var subTitle: String!
+    
+    init(_ title: String, subTitle: String) {
+        self.title = title
+        self.subTitle = subTitle
+    }
+    
     
     override var identifier: String {
         return "SimpleCell"
     }
     
     override var rowHeight: CGFloat {
-        return 80
+        return UITableViewAutomaticDimension
     }
     
     override var estimatedRowHeight: CGFloat {
-        return 80
+        return 64
     }
     
     override func populateView(cell: JomloTableViewCell) {
-    
+        let cell = cell as! SimpleCell
+        cell.titleLabel.text = title
+        cell.subTitleLabel.text = subTitle
     }
     
 }
