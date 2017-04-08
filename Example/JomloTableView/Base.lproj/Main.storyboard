@@ -24,11 +24,32 @@
                     <connections>
                         <outlet property="jomloTableView" destination="O58-cx-lFa" id="EEN-ES-c87"/>
                         <segue destination="g32-7R-g4E" kind="show" identifier="showLoadMoreExample" id="yzC-EM-5kg"/>
+                        <segue destination="2ow-KJ-V6C" kind="show" identifier="showSimpleTableViewExample" id="hbf-ba-Awg"/>
+                        <segue destination="Fz1-YY-UCM" kind="show" identifier="showDynamicHeightExample" id="pSv-Fd-mMd"/>
+                        <segue destination="upc-79-Edd" kind="show" identifier="showWebViewExample" id="qIh-hH-BZy"/>
+                        <segue destination="Xja-tS-nsM" kind="show" identifier="showImageListExample" id="p6h-kF-bIw"/>
+                        <segue destination="LdN-QN-clK" kind="show" identifier="showLongLayoutExample" id="Oav-T4-iT0"/>
+                        <segue destination="GYR-Bp-ZOg" kind="show" identifier="showStackViewRowExample" id="tdF-6I-znC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
+            <point key="canvasLocation" x="532" y="191"/>
+        </scene>
+        <!--SimpleTableView-->
+        <scene sceneID="ZkZ-li-643">
+            <objects>
+                <viewController id="2ow-KJ-V6C" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ewI-eZ-BEt" customClass="JomloTableView" customModule="JomloTableView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="SimpleTableView" id="wl8-gL-Vnq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G8B-Nb-fl6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="-479"/>
         </scene>
         <!--Load More Example-->
         <scene sceneID="xtz-2B-VF9">
@@ -48,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DKX-6f-sJi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1920.8" y="13.943028485757123"/>
+            <point key="canvasLocation" x="1585" y="-479"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Uo3-bN-yZx">
@@ -66,7 +87,82 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9pm-MH-7gV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-175" y="161"/>
+            <point key="canvasLocation" x="-247" y="191"/>
+        </scene>
+        <!--DynamicHeight-->
+        <scene sceneID="Za0-cZ-LpC">
+            <objects>
+                <viewController id="Fz1-YY-UCM" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vjj-gb-tMm" customClass="JomloTableView" customModule="JomloTableView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="DynamicHeight" id="Idi-0n-Njj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="byX-x2-mBs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1585" y="190"/>
+        </scene>
+        <!--WebView-->
+        <scene sceneID="LW7-t6-8X9">
+            <objects>
+                <viewController id="upc-79-Edd" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="oKc-pK-X9f" customClass="JomloTableView" customModule="JomloTableView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="WebView" id="hr9-3A-2oK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iC0-0e-NwY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="191"/>
+        </scene>
+        <!--ImageList-->
+        <scene sceneID="w7T-P8-zNy">
+            <objects>
+                <viewController id="Xja-tS-nsM" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="By5-T3-kYI" customClass="JomloTableView" customModule="JomloTableView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="ImageList" id="xiW-hM-Pzc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBN-V1-eEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1585" y="883"/>
+        </scene>
+        <!--LongLayout-->
+        <scene sceneID="Nmb-Sj-2nQ">
+            <objects>
+                <viewController id="LdN-QN-clK" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="3RS-Kc-wVk" customClass="JomloTableView" customModule="JomloTableView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="LongLayout" id="aCO-5w-cXQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9v9-Eq-TCO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3273" y="883"/>
+        </scene>
+        <!--StackViewRow-->
+        <scene sceneID="crb-16-Hw1">
+            <objects>
+                <viewController id="GYR-Bp-ZOg" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="BwG-Mq-gDJ" customClass="JomloTableView" customModule="JomloTableView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="StackViewRow" id="MLP-23-8DZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vFz-1q-k3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1585" y="1597"/>
         </scene>
     </scenes>
 </document>
