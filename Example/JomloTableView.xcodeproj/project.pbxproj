@@ -15,6 +15,10 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		84CBD496B3AF199DDDFABEA5 /* Pods_JomloTableView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02771B90736B785DC8EEE580 /* Pods_JomloTableView_Example.framework */; };
+		BD0F4E241E98E8AF001D0DA3 /* LoadMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0F4E231E98E8AF001D0DA3 /* LoadMoreViewController.swift */; };
+		BD14BB5E1E94E0C9006FB1B5 /* LoadMoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14BB5D1E94E0C9006FB1B5 /* LoadMoreRow.swift */; };
+		BD14BB611E94E115006FB1B5 /* LoadMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14BB5F1E94E115006FB1B5 /* LoadMoreCell.swift */; };
+		BD14BB621E94E115006FB1B5 /* LoadMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD14BB601E94E115006FB1B5 /* LoadMoreCell.xib */; };
 		BDFF41491E8A871900D14CE7 /* SimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFF41481E8A871900D14CE7 /* SimpleCell.swift */; };
 		BDFF414B1E8A873600D14CE7 /* SimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFF414A1E8A873600D14CE7 /* SimpleCell.xib */; };
 /* End PBXBuildFile section */
@@ -47,8 +51,12 @@
 		B02AFC91A81D2EBF28A0B26F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B828666E6D8F9450941A36AB /* Pods-JomloTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Example/Pods-JomloTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BAB533BC282592A3CAD7E959 /* JomloTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JomloTableView.podspec; path = ../JomloTableView.podspec; sourceTree = "<group>"; };
-		BDFF41481E8A871900D14CE7 /* SimpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCell.swift; sourceTree = "<group>"; };
-		BDFF414A1E8A873600D14CE7 /* SimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCell.xib; sourceTree = "<group>"; };
+		BD0F4E231E98E8AF001D0DA3 /* LoadMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMoreViewController.swift; sourceTree = "<group>"; };
+		BD14BB5D1E94E0C9006FB1B5 /* LoadMoreRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadMoreRow.swift; path = Rows/LoadMoreRow.swift; sourceTree = "<group>"; };
+		BD14BB5F1E94E115006FB1B5 /* LoadMoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadMoreCell.swift; path = Rows/LoadMoreCell.swift; sourceTree = "<group>"; };
+		BD14BB601E94E115006FB1B5 /* LoadMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadMoreCell.xib; path = Rows/LoadMoreCell.xib; sourceTree = "<group>"; };
+		BDFF41481E8A871900D14CE7 /* SimpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleCell.swift; path = JomloTableView/Rows/SimpleCell.swift; sourceTree = SOURCE_ROOT; };
+		BDFF414A1E8A873600D14CE7 /* SimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SimpleCell.xib; path = Rows/SimpleCell.xib; sourceTree = "<group>"; };
 		D67A39B8BF2D4AB708B1879B /* Pods-JomloTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Tests/Pods-JomloTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E555BEE30E2659F27C50D6B8 /* Pods-JomloTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JomloTableView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JomloTableView_Tests/Pods-JomloTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,14 +105,14 @@
 		607FACD21AFB9204008FA782 /* Example for JomloTableView */ = {
 			isa = PBXGroup;
 			children = (
+				BD0F4E221E98E829001D0DA3 /* View Controllers */,
+				BD14BB5C1E94DFCE006FB1B5 /* Rows */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				BDFF41481E8A871900D14CE7 /* SimpleCell.swift */,
-				BDFF414A1E8A873600D14CE7 /* SimpleCell.xib */,
 			);
 			name = "Example for JomloTableView";
 			path = JomloTableView;
@@ -143,6 +151,26 @@
 				B02AFC91A81D2EBF28A0B26F /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		BD0F4E221E98E829001D0DA3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD0F4E231E98E8AF001D0DA3 /* LoadMoreViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BD14BB5C1E94DFCE006FB1B5 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				BDFF41481E8A871900D14CE7 /* SimpleCell.swift */,
+				BDFF414A1E8A873600D14CE7 /* SimpleCell.xib */,
+				BD14BB5D1E94E0C9006FB1B5 /* LoadMoreRow.swift */,
+				BD14BB5F1E94E115006FB1B5 /* LoadMoreCell.swift */,
+				BD14BB601E94E115006FB1B5 /* LoadMoreCell.xib */,
+			);
+			name = Rows;
 			sourceTree = "<group>";
 		};
 		D468E008AD7F9DA36A194707 /* Frameworks */ = {
@@ -257,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				BD14BB621E94E115006FB1B5 /* LoadMoreCell.xib in Resources */,
 				BDFF414B1E8A873600D14CE7 /* SimpleCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -373,6 +402,9 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				BDFF41491E8A871900D14CE7 /* SimpleCell.swift in Sources */,
+				BD0F4E241E98E8AF001D0DA3 /* LoadMoreViewController.swift in Sources */,
+				BD14BB611E94E115006FB1B5 /* LoadMoreCell.swift in Sources */,
+				BD14BB5E1E94E0C9006FB1B5 /* LoadMoreRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

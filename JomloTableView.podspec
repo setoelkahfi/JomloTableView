@@ -24,9 +24,9 @@ JomloTableView uses detachable section and row. You can add multiple section ind
   s.homepage         = 'https://github.com/setoelkahfi/JomloTableView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'setoelkahfi' => 'setoelkahfi@gmail.com' }
+  s.author           = { 'Seto Elkahfi' => 'setoelkahfi@gmail.com' }
   s.source           = { :git => 'https://github.com/setoelkahfi/JomloTableView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/setoelkahfi'
 
   s.ios.deployment_target = '8.0'
 

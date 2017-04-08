@@ -65,7 +65,7 @@ class ViewController: UIViewController {
 
 ## Author
 
-setoelkahfi, setoelkahfi@gmail.com
+Seto Elkahfi, setoelkahfi@gmail.com
 
 ## License
 

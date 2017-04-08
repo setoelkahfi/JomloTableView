@@ -16,11 +16,12 @@ public class JomloTableView: UITableView {
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
-        self.delegate = self
-        self.dataSource = self
-        self.tableFooterView = UIView()
+        delegate = self
+        dataSource = self
+        tableFooterView = UIView()
     }
     
+    // Count all section in this table view
     public func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return sections.count
     }
@@ -49,7 +50,7 @@ extension JomloTableView: UITableViewDelegate {
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let item = sections[indexPath.section].rows[indexPath.row]
-        item.onItemClicked()
+        item.onRowClicked()
     }
     
     public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {

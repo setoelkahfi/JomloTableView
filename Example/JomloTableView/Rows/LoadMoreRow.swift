@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import JomloTableView
+
+class LoadMoreRow: JomloTableViewRow {
+    
+    
+    override var rowHeight: CGFloat {
+        return 62
+    }
+    
+    
+    
+}

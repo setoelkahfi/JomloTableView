@@ -11,17 +11,18 @@ import JomloTableView
 
 class SimpleCell: JomloTableViewCell {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
+    @IBOutlet var textlabel: UILabel!
 
 }
 
 class SimpleRow: JomloTableViewRow {
+    
+    var text: String!
+    
+    init(_ text: String) {
+        self.text = text
+    }
+    
     
     override var identifier: String {
         return "SimpleCell"
@@ -36,7 +37,8 @@ class SimpleRow: JomloTableViewRow {
     }
     
     override func populateView(cell: JomloTableViewCell) {
-    
+        let cell = cell as! SimpleCell
+        cell.textlabel.text = text
     }
     
 }
