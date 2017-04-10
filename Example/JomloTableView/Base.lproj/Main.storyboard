@@ -19,7 +19,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tableView>
                     <navigationItem key="navigationItem" title="JomloTableView Example" id="82t-X7-det">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="EVO-cv-TLr"/>
+                        <barButtonItem key="backBarButtonItem" title=" " id="EVO-cv-TLr"/>
                     </navigationItem>
                     <connections>
                         <outlet property="jomloTableView" destination="O58-cx-lFa" id="EEN-ES-c87"/>

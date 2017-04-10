@@ -1,16 +1,26 @@
 PODS:
-  - JomloTableView (0.1.0)
+  - Fabric (1.6.11)
+  - JomloTableView (0.2.0)
+  - TwitterCore (2.8.0):
+    - Fabric
+  - TwitterKit (2.8.1):
+    - TwitterCore (>= 2.8)
 
 DEPENDENCIES:
+  - Fabric
   - JomloTableView (from `../`)
+  - TwitterKit
 
 EXTERNAL SOURCES:
   JomloTableView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JomloTableView: 479e296a4a64f82a56808cc6579df28c4f130c87
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  JomloTableView: 2bd38291983841b888260cc3ac8d3524cfc005b8
+  TwitterCore: e959987be23c767004d29eb7fab8d85d8585a2e5
+  TwitterKit: 3b6044a7320340326a4098f3e37aa1dbaeb94942
 
-PODFILE CHECKSUM: fc66bc4fd87f5f902259a225d37e438952ce5aeb
+PODFILE CHECKSUM: a06dde133f19b4577a74b5ce9e34130006af378b
 
 COCOAPODS: 1.1.1

@@ -35,8 +35,10 @@
 /* Begin PBXFileReference section */
 		0A4F0F15992F616F4F7F1BC8B2326618 /* Pods_JomloTableView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JomloTableView_Example.framework; path = "Pods-JomloTableView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D74EAD65AB19B7B9B2C35769EE96314 /* Pods-JomloTableView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JomloTableView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		28312186C322A74A61CE43697138CCC6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		2F6F893EA7950A7BE59637B990958AF2 /* JomloTableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JomloTableView-dummy.m"; sourceTree = "<group>"; };
 		36EA977690BA933633B4F9F0AD1252BC /* Pods-JomloTableView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JomloTableView_Example.modulemap"; sourceTree = "<group>"; };
+		3E396D0EFEB42CA7ADD1D1895A2F6E15 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
 		45088A701E771BAC60DCBF0DA340E71E /* JomloTableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JomloTableView.xcconfig; sourceTree = "<group>"; };
 		489BCA5423D698CB1466237ED6036019 /* Pods-JomloTableView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JomloTableView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5779D40C034F3E90886CA3DC3A3DD3A4 /* Pods-JomloTableView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JomloTableView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,16 +57,20 @@
 		9E88CBFBE200C005FEFBFF83D7B1B2B2 /* Pods-JomloTableView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JomloTableView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A8DB46A01A5A00409542D1A7EE1D99BF /* Pods_JomloTableView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JomloTableView_Tests.framework; path = "Pods-JomloTableView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96BFA3EE6A0D28CD604B8B44A4C4AD4 /* Pods-JomloTableView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JomloTableView_Tests-dummy.m"; sourceTree = "<group>"; };
+		B240D65485509CF7EE0998A8DD37E68D /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		B46D5F73DDC87BA9D964566E34DB382E /* Pods-JomloTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JomloTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5B6497D0985918FB6BE7450AE8060E8 /* Pods-JomloTableView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JomloTableView_Example-umbrella.h"; sourceTree = "<group>"; };
+		BBCCF59BD8B77C768DD936C8892A471F /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
 		C361274D31BA2CCB58B987096CB1E69B /* Pods-JomloTableView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JomloTableView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C4343F4D99A7254AB43CA9880C54A3B9 /* Pods-JomloTableView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JomloTableView_Tests-resources.sh"; sourceTree = "<group>"; };
 		C4A6CD3BFC8909F01D3AEF903EC5874D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C75FAA7E5F729BFA337001756BA821 /* Pods-JomloTableView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JomloTableView_Example-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CD1640BFFABB922778E5686A4364E9D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEB9418A8A8EB2F5863DFCB9B689717 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		E30BCE204FC5F5B7857472E0EBEC9BD1 /* Pods-JomloTableView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JomloTableView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3AC7D44D6FE3B7BBDEEAF6A267D5F84 /* Pods-JomloTableView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JomloTableView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E5F844671CFECD95B1DC4725713B13CC /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
 		F2473E1F8D73A2E5FED63E1FB32F6D9E /* JomloTableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JomloTableView-prefix.pch"; sourceTree = "<group>"; };
 		F6F8C2618AA8567D2F3A411F6A7B3E0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDD98EF2DC50DC16583950014D29FDA8 /* Pods-JomloTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JomloTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17A11F737FAE865798D118450678B032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28312186C322A74A61CE43697138CCC6 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E2B628CECE027A36187E1817FD4C492 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +165,22 @@
 			path = "Target Support Files/Pods-JomloTableView_Example";
 			sourceTree = "<group>";
 		};
+		4DBD6493E5C509076AE36D8AB0E5A90A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5F844671CFECD95B1DC4725713B13CC /* TwitterKitResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6244FE393E8B9DFF3E7790F0DC742EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBCCF59BD8B77C768DD936C8892A471F /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +207,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2E2B628CECE027A36187E1817FD4C492 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B22FE4A2A7819BC0489C26EE175D17A5 /* Pods */,
 				C388DA48CDC125CD8E09A26A29177159 /* Products */,
 				EBF5F2E2FBE5CD01A7DFF5A90CACED75 /* Targets Support Files */,
 			);
@@ -194,6 +225,54 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JomloTableView";
+			sourceTree = "<group>";
+		};
+		903DD9ADE5A783C51AE10D015DAFCBD9 /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				B1A0E5407F061703CD8312BBB914D1EF /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		9CD88076543926CCFD2E3380C0E13022 /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				6244FE393E8B9DFF3E7790F0DC742EF8 /* Frameworks */,
+				4DBD6493E5C509076AE36D8AB0E5A90A /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		B1A0E5407F061703CD8312BBB914D1EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E396D0EFEB42CA7ADD1D1895A2F6E15 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B22FE4A2A7819BC0489C26EE175D17A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3EE012E55D8C78378CC92DBFFD0E03D /* Fabric */,
+				903DD9ADE5A783C51AE10D015DAFCBD9 /* TwitterCore */,
+				9CD88076543926CCFD2E3380C0E13022 /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3EE012E55D8C78378CC92DBFFD0E03D /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				B240D65485509CF7EE0998A8DD37E68D /* FABAttributes.h */,
+				DFEB9418A8A8EB2F5863DFCB9B689717 /* Fabric.h */,
+				17A11F737FAE865798D118450678B032 /* Frameworks */,
+			);
+			name = Fabric;
+			path = Fabric;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
