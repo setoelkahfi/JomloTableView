@@ -39,13 +39,16 @@
         <!--SimpleTableView-->
         <scene sceneID="ZkZ-li-643">
             <objects>
-                <viewController id="2ow-KJ-V6C" sceneMemberID="viewController">
+                <viewController id="2ow-KJ-V6C" customClass="SimpleTableViewController" customModule="JomloTableView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ewI-eZ-BEt" customClass="JomloTableView" customModule="JomloTableView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </tableView>
                     <navigationItem key="navigationItem" title="SimpleTableView" id="wl8-gL-Vnq"/>
+                    <connections>
+                        <outlet property="jomloTableView" destination="ewI-eZ-BEt" id="OO1-dw-ETv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G8B-Nb-fl6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

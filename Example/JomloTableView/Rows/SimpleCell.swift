@@ -26,7 +26,6 @@ class SimpleRow: JomloTableViewRow {
         self.subTitle = subTitle
     }
     
-    
     override var identifier: String {
         return "SimpleCell"
     }
