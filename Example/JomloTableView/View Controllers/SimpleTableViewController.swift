@@ -70,7 +70,7 @@ class SimpleTableViewController: UIViewController {
 //                      print("\(status["text"])")
                         let user = status["user"] as! [String: Any]
                         
-                        let row = SimpleRow("@\(user["screen_name"] as! String)", subTitle: status["text"] as! String)
+                        let row = SimpleRow("@\(user["screen_name"] as! String) \(user["name"] as! String)", subTitle: status["text"] as! String)
                         tableSection.addRow(row: row)
 
                     }

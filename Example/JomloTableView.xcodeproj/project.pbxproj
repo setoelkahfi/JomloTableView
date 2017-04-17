@@ -19,6 +19,7 @@
 		BD14BB5E1E94E0C9006FB1B5 /* LoadMoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14BB5D1E94E0C9006FB1B5 /* LoadMoreRow.swift */; };
 		BD14BB611E94E115006FB1B5 /* LoadMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14BB5F1E94E115006FB1B5 /* LoadMoreCell.swift */; };
 		BD14BB621E94E115006FB1B5 /* LoadMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD14BB601E94E115006FB1B5 /* LoadMoreCell.xib */; };
+		BD1B843C1EA5041200386561 /* NotJomloSimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1B843B1EA5041200386561 /* NotJomloSimpleTableViewController.swift */; };
 		BDBB05C81EA2351600B02BDB /* TwitterSimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBB05C61EA2351600B02BDB /* TwitterSimpleCell.swift */; };
 		BDBB05C91EA2351600B02BDB /* TwitterSimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDBB05C71EA2351600B02BDB /* TwitterSimpleCell.xib */; };
 		BDDDF6211E9B3291007846D3 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDDF6201E9B3290007846D3 /* SimpleTableViewController.swift */; };
@@ -58,6 +59,7 @@
 		BD14BB5D1E94E0C9006FB1B5 /* LoadMoreRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadMoreRow.swift; path = Rows/LoadMoreRow.swift; sourceTree = "<group>"; };
 		BD14BB5F1E94E115006FB1B5 /* LoadMoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoadMoreCell.swift; path = Rows/LoadMoreCell.swift; sourceTree = "<group>"; };
 		BD14BB601E94E115006FB1B5 /* LoadMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoadMoreCell.xib; path = Rows/LoadMoreCell.xib; sourceTree = "<group>"; };
+		BD1B843B1EA5041200386561 /* NotJomloSimpleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotJomloSimpleTableViewController.swift; path = "View Controllers/NotJomloSimpleTableViewController.swift"; sourceTree = "<group>"; };
 		BDBB05C61EA2351600B02BDB /* TwitterSimpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterSimpleCell.swift; path = Rows/TwitterSimpleCell.swift; sourceTree = "<group>"; };
 		BDBB05C71EA2351600B02BDB /* TwitterSimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TwitterSimpleCell.xib; path = Rows/TwitterSimpleCell.xib; sourceTree = "<group>"; };
 		BDDDF6201E9B3290007846D3 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleTableViewController.swift; path = "View Controllers/SimpleTableViewController.swift"; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			children = (
 				BD0F4E231E98E8AF001D0DA3 /* LoadMoreViewController.swift */,
 				BDDDF6201E9B3290007846D3 /* SimpleTableViewController.swift */,
+				BD1B843B1EA5041200386561 /* NotJomloSimpleTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				BDFF41491E8A871900D14CE7 /* SimpleCell.swift in Sources */,
 				BD0F4E241E98E8AF001D0DA3 /* LoadMoreViewController.swift in Sources */,
 				BDDDF6211E9B3291007846D3 /* SimpleTableViewController.swift in Sources */,
+				BD1B843C1EA5041200386561 /* NotJomloSimpleTableViewController.swift in Sources */,
 				BD14BB611E94E115006FB1B5 /* LoadMoreCell.swift in Sources */,
 				BD14BB5E1E94E0C9006FB1B5 /* LoadMoreRow.swift in Sources */,
 				BDBB05C81EA2351600B02BDB /* TwitterSimpleCell.swift in Sources */,
