@@ -58,12 +58,19 @@
         <scene sceneID="3Te-CE-0jz">
             <objects>
                 <viewController id="NyT-1O-xwC" customClass="NotJomloSimpleTableViewController" customModule="JomloTableView_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bTg-b3-lO0">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="88" sectionHeaderHeight="28" sectionFooterHeight="28" id="bTg-b3-lO0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="NyT-1O-xwC" id="3Lx-j8-Qfd"/>
+                            <outlet property="delegate" destination="NyT-1O-xwC" id="w4e-WI-NSR"/>
+                        </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="Lmi-4X-6VJ"/>
+                    <connections>
+                        <outlet property="tableView" destination="bTg-b3-lO0" id="dSf-yq-J7f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q1O-6s-vbD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -188,6 +195,7 @@
                 <tabBarController title="SimpleTableView" automaticallyAdjustsScrollViewInsets="NO" id="u5j-Mu-QBn" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Rq8-R7-bbG">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
