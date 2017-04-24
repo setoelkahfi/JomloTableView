@@ -4,9 +4,20 @@
 [![License](https://img.shields.io/cocoapods/l/JomloTableView.svg?style=flat)](http://cocoapods.org/pods/JomloTableView)
 [![Platform](https://img.shields.io/cocoapods/p/JomloTableView.svg?style=flat)](http://cocoapods.org/pods/JomloTableView)
 
+An iOS UITableView with detachable section and row. Use single section with multiple rows, or multiple sections with multiple rows.
+Conforming UITableViewDelegate and UITableViewDataSource in every view controller is a mundane and repetitive task. Move the delegate and the data source directly to the table view, and supply the table with section(s) and row(s). Free yourself from Massive-View-Controller.
+
+Reference: https://goo.gl/zTGfpi, https://goo.gl/7vMbSF
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```shell
+git clone https://github.com/setoelkahfi/JomloTableView
+cd Example
+pod install
+```
+
 
 ## Requirements
 
@@ -22,7 +33,7 @@ pod "JomloTableView"
 ```
 
 ## Usage
-
+### Simple usage
 Use single section with multiple rows. All the rows below are from single class.
 ```swift
 import UIKit
@@ -38,28 +49,18 @@ import JomloTableView
         super.viewDidLoad()
 
         let row0 = SimpleRow("Simple table view", subTitle: "A simple table view like we usually use. But this time, we use JomloTableView.")
+        row0.setOnRowClicked { (row) in
+            self.performSegue(withIdentifier: "showSimpleTableViewExample", sender: self)
+        }
         exampleSection.addRow(row: row0)
 
         let row1 = SimpleRow("Load more", subTitle: "A JomloTableView with load more row at the bottom. Will load infinite row if we scroll the table view to the bottom.")
         row1.setOnRowClicked { (row) in
-        self.performSegue(withIdentifier: "showLoadMoreExample", sender: self)
+            self.performSegue(withIdentifier: "showLoadMoreExample", sender: self)
         }
         exampleSection.addRow(row: row1)
 
-        let row2 = SimpleRow("Dynamic height", subTitle: "Example how to use dynamic height for single row. In fact, this example rows is also use dynamic height.")
-        exampleSection.addRow(row: row2)
-
-        let row3 = SimpleRow("WebView", subTitle: "A JomloTableView with WebView inside of its row.")
-        exampleSection.addRow(row: row3)
-
-        let row4 = SimpleRow("Image list", subTitle: "A JomloTableView with image views inside of its row.")
-        exampleSection.addRow(row: row4)
-
-        let row5 = SimpleRow("Long scrollable layout", subTitle: "A JomloTableView which doesn't look like a table view. ")
-        exampleSection.addRow(row: row5)
-
-        let row6 = SimpleRow("StackView row", subTitle: "A JomloTableView with UIStackView inside of its rows. Here we use UITableViewAutomaticDimension for row's height property.")
-        exampleSection.addRow(row: row6)
+        // Another rows to add
 
         jomloTableView.addSection(section: exampleSection)
         jomloTableView.reloadData()
@@ -68,9 +69,51 @@ import JomloTableView
 
 // Another code
 ```
-![Example rows 1](/../release-0.2.0/images/example-rows-0.png?raw=true "Example rows 1")
-![Example rows 2](/../release-0.2.0/images/example-rows-1.png?raw=true "Example rows 2")
+The row
+```swift
+import UIKit
+import JomloTableView
 
+class SimpleCell: JomloTableViewCell {
+
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var subTitleLabel: UILabel!
+
+}
+
+class SimpleRow: JomloTableViewRow {
+
+    var title: String!
+    var subTitle: String!
+
+    init(_ title: String, subTitle: String) {
+        self.title = title
+        self.subTitle = subTitle
+    }
+
+    override var identifier: String {
+        return "SimpleCell"
+    }
+
+    override var rowHeight: CGFloat {
+        return UITableViewAutomaticDimension
+    }
+
+    override var estimatedRowHeight: CGFloat {
+        return 64
+    }
+
+    override func populateView(cell: JomloTableViewCell) {
+        let cell = cell as! SimpleCell
+        cell.titleLabel.text = title
+        cell.subTitleLabel.text = subTitle
+    }
+}
+
+```
+<img src="https://raw.githubusercontent.com/setoelkahfi/JomloTableView/release-0.2.0/images/example-rows-0.png" width="220" height="400" title="Example rows 2"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/setoelkahfi/JomloTableView/release-0.2.0/images/example-rows-1.png" width="220" height="400" title="Example rows 2"/>
+
+### Load more row
 This table view will load more row if loadMoreRow is populated. This example will load infinite rows if user scroll to bottom of table view. Eight rows per each load.
 ```swift
 import UIKit
@@ -91,9 +134,9 @@ import JomloTableView
 
     func addRows() {
         for _ in 0..<8 {
-        let rowNumber = tableSection.count + 1
-        let row = SimpleRow("Row \(rowNumber)", subTitle: "Example row.")
-        tableSection.addRow(row: row)
+            let rowNumber = tableSection.count + 1
+            let row = SimpleRow("Row \(rowNumber)", subTitle: "Example row.")
+            tableSection.addRow(row: row)
         }
 
         addLoadMoreRow()
@@ -101,12 +144,12 @@ import JomloTableView
 
     func addLoadMoreRow() {
 
-    let loadMoreRow = LoadMoreRow {
-        // To get the effect or loading, delay the execution after 3 seconds
-        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3, execute: {
-        self.tableSection.removeLastRow()
-        self.addRows()
-        })
+        let loadMoreRow = LoadMoreRow {
+            // To get the effect or loading, delay the execution after 3 seconds
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3, execute: {
+                self.tableSection.removeLastRow()
+                self.addRows()
+            })
         }
 
         tableSection.addRow(row: loadMoreRow)
@@ -116,9 +159,7 @@ import JomloTableView
 // Another code
 
 ```
-![Example load more row 1](/../release-0.2.0/images/example-load-more-0.png?raw=true "Example load more row 1")
-![Example load more row 2](/../release-0.2.0/images/example-load-more-1.png?raw=true "Example load more row 2")
-![Example load more row 3](/../release-0.2.0/images/example-load-more-2.png?raw=true "Example load more row 3")
+<img src="https://raw.githubusercontent.com/setoelkahfi/JomloTableView/release-0.2.0/images/example-load-more-0.png" width="220" height="400" title="Example load more rows 1"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/setoelkahfi/JomloTableView/release-0.2.0/images/example-load-more-1.png" width="220" height="400" title="Example load more rows 2"/>&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/setoelkahfi/JomloTableView/release-0.2.0/images/example-load-more-2.png" width="200" height="400" title="Example load more rows 3"/>
 
 ## Author
 

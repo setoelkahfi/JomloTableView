@@ -20,7 +20,7 @@ class NotJomloSimpleTableViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.isHidden = true
+//        tableView.isHidden = true
         
         loginButton = TWTRLogInButton { (session, error) in
             if let session = session {
@@ -75,7 +75,7 @@ class NotJomloSimpleTableViewController: UIViewController {
                         
                     }
                     DispatchQueue.main.async {
-                        tableView.isHidden = false
+                        self.tableView.isHidden = false
                         self.loginButton.removeFromSuperview()
                         self.tableView.reloadData()
                     }
