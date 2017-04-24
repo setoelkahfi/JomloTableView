@@ -1,20 +1,21 @@
 {
   "name": "JomloTableView",
-  "version": "0.1.0",
-  "summary": "A short description of JomloTableView.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "A UITableView with detachable section and row.",
+  "description": "JomloTableView uses detachable section and row. You can add multiple section individually and add rows to each section. See example project for how to use this library.",
   "homepage": "https://github.com/setoelkahfi/JomloTableView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "setoelkahfi": "setoelkahfi@gmail.com"
+    "Seto Elkahfi": "setoelkahfi@gmail.com"
   },
   "source": {
     "git": "https://github.com/setoelkahfi/JomloTableView.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
+  "social_media_url": "https://twitter.com/setoelkahfi",
   "platforms": {
     "ios": "8.0"
   },

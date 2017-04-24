@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let row0 = SimpleRow("Simple table view", subTitle: "A simple table view like we usually use. But this time, we use JomloTableView.")
+        row0.setOnRowClicked { (row) in
+            self.performSegue(withIdentifier: "showSimpleTableViewExample", sender: self)
+        }
         exampleSection.addRow(row: row0)
         
         let row1 = SimpleRow("Load more", subTitle: "A JomloTableView with load more row at the bottom. Will load infinite row if we scroll the table view to the bottom.")
@@ -28,18 +31,33 @@ class ViewController: UIViewController {
         exampleSection.addRow(row: row1)
         
         let row2 = SimpleRow("Dynamic height", subTitle: "Example how to use dynamic height for single row. In fact, this example rows is also use dynamic height.")
+        row2.setOnRowClicked { (row) in
+            self.performSegue(withIdentifier: "showDynamicHeightExample", sender: self)
+        }
         exampleSection.addRow(row: row2)
         
         let row3 = SimpleRow("WebView", subTitle: "A JomloTableView with WebView inside of its row.")
+        row3.setOnRowClicked { (row) in
+            self.performSegue(withIdentifier: "showWebViewExample", sender: self)
+        }
         exampleSection.addRow(row: row3)
         
         let row4 = SimpleRow("Image list", subTitle: "A JomloTableView with image views inside of its row.")
+        row4.setOnRowClicked { (row) in
+            self.performSegue(withIdentifier: "showImageListExample", sender: self)
+        }
         exampleSection.addRow(row: row4)
         
-        let row5 = SimpleRow("Long scrollable layout", subTitle: "A JomloTableView which doesn't look like a table view. ")
+        let row5 = SimpleRow("Long layout", subTitle: "A JomloTableView which doesn't look like a table view.")
+        row5.setOnRowClicked { (row) in
+            self.performSegue(withIdentifier: "showLongLayoutExample", sender: self)
+        }
         exampleSection.addRow(row: row5)
         
         let row6 = SimpleRow("StackView row", subTitle: "A JomloTableView with UIStackView inside of its rows. Here we use UITableViewAutomaticDimension for row's height property.")
+        row6.setOnRowClicked { (row) in
+            self.performSegue(withIdentifier: "showStackViewRowExample", sender: self)
+        }
         exampleSection.addRow(row: row6)
         
         jomloTableView.addSection(section: exampleSection)
