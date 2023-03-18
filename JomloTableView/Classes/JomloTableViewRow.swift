@@ -46,7 +46,9 @@ open class JomloTableViewRow: NSObject {
     }
     
     open func willDisplay(cell: UITableViewCell) {
+        #if (ios)
         cell.separatorInset = UIEdgeInsets(top: 0, left: 6, bottom: 0, right: 6)
+        #endif
     }
     
     // Call the callback

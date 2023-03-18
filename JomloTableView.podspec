@@ -30,6 +30,8 @@ JomloTableView uses detachable section and row. You can add multiple section ind
   s.social_media_url = 'https://twitter.com/setoelkahfi'
 
   s.ios.deployment_target = '11.0'
+  s.tvos.deployment_target = '11.0'
+
 
   s.source_files = 'JomloTableView/Classes/**/*'
   

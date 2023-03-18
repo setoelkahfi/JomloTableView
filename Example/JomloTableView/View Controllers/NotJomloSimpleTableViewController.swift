@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import TwitterKit
 
 class NotJomloSimpleTableViewController: UIViewController {
 
@@ -15,23 +14,8 @@ class NotJomloSimpleTableViewController: UIViewController {
     
     var tweets = [Tweet]()
     
-    let client = TWTRAPIClient()
-    var loginButton: TWTRLogInButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        tableView.isHidden = true
-        
-        loginButton = TWTRLogInButton { (session, error) in
-            if let session = session {
-                print("Signed as: \(session.userName)")
-                self.loadTweets()
-            } else {
-                print("Error: \(error?.localizedDescription)")
-            }
-        }
-        loginButton.center = view.center
-        view.addSubview(loginButton)
 
     }
     
@@ -40,26 +24,6 @@ class NotJomloSimpleTableViewController: UIViewController {
         let searchEndPoint = "https://api.twitter.com/1.1/search/tweets.json"
         let params = ["q" : "jomlo"]
         var clientError: NSError?
-        
-        let request = client.urlRequest(
-            withMethod: "GET",
-            urlString: searchEndPoint,
-            parameters: params,
-            error: &clientError
-        )
-        
-        client.sendTwitterRequest(request) { (response, data, connectionError) in
-            
-            if let data = data {
-                self.populate(data: data)
-            }
-            
-            if let error = connectionError {
-                print("Error: \(error.localizedDescription)")
-            }
-            
-            
-        }
     }
     
     internal func populate(data: Data) {
@@ -81,7 +45,6 @@ class NotJomloSimpleTableViewController: UIViewController {
                     }
                     DispatchQueue.main.async {
                         self.tableView.isHidden = false
-                        self.loginButton.removeFromSuperview()
                         self.tableView.reloadData()
                     }
                 }
