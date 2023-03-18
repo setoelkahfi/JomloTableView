@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /**
  A singe row to be inserted in an instance of JomloTableViewSection. Subclass from this class and reference the identifier
