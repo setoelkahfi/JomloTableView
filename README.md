@@ -25,11 +25,20 @@ iOS 8
 
 ## Installation
 
-JomloTableView is available through [CocoaPods](http://cocoapods.org). To install
+JomloTableView is available through [CocoaPods](http://cocoapods.org) and Swift Package Manager.
+
+### Cocoapods
+To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod "JomloTableView"
+```
+
+### Swift Package Manager
+
+```swift
+
 ```
 
 ## Usage

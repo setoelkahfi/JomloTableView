@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "JomloTableView",
-    platforms: [.iOS(.v11)],
+    platforms: [.iOS(.v11), .tvOS(.v11)],
     products: [
         .library(
             name: "JomloTableView",
@@ -14,10 +14,12 @@ let package = Package(
     targets: [
         .target(
             name: "JomloTableView",
-            dependencies: []),
+            dependencies: []
+        ),
         .testTarget(
             name: "JomloTableViewTests",
-            dependencies: ["JomloTableView"]),
+            dependencies: ["JomloTableView"]
+        ),
     ],
     swiftLanguageVersions: [.v5]
 )
