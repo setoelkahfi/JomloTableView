@@ -41,7 +41,12 @@ class NotJomloSimpleTableViewController: UIViewController {
         let params = ["q" : "jomlo"]
         var clientError: NSError?
         
-        let request = client.urlRequest(withMethod: "GET", urlString: searchEndPoint, parameters: params, error: &clientError)
+        let request = client.urlRequest(
+            withMethod: "GET",
+            urlString: searchEndPoint,
+            parameters: params,
+            error: &clientError
+        )
         
         client.sendTwitterRequest(request) { (response, data, connectionError) in
             
