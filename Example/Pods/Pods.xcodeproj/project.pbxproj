@@ -650,6 +650,71 @@
 			};
 			name = Debug;
 		};
+		81F21FB60705F708F3EE88568E557F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8ABB30CFED1254D8F568DAF79815BBC /* JomloTableView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JomloTableView/JomloTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JomloTableView/JomloTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JomloTableView/JomloTableView.modulemap";
+				PRODUCT_MODULE_NAME = JomloTableView;
+				PRODUCT_NAME = JomloTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CA4C84EEF9EFE8E339F76A51F1E2010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3843388A2354AE61B38B3CCF674C2887 /* JomloTableView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JomloTableView/JomloTableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JomloTableView/JomloTableView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JomloTableView/JomloTableView.modulemap";
+				PRODUCT_MODULE_NAME = JomloTableView;
+				PRODUCT_NAME = JomloTableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -711,38 +776,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		A8791617F28CE436BB71EB8A91C0F5B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8ABB30CFED1254D8F568DAF79815BBC /* JomloTableView.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JomloTableView/JomloTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JomloTableView/JomloTableView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JomloTableView/JomloTableView.modulemap";
-				PRODUCT_MODULE_NAME = JomloTableView;
-				PRODUCT_NAME = JomloTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		AAFD26989A004F2A3BFC965A86A2283B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -874,39 +907,6 @@
 			};
 			name = Debug;
 		};
-		BBC2E1315D622CFB598FCB3343A80C50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3843388A2354AE61B38B3CCF674C2887 /* JomloTableView.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JomloTableView/JomloTableView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JomloTableView/JomloTableView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JomloTableView/JomloTableView.modulemap";
-				PRODUCT_MODULE_NAME = JomloTableView;
-				PRODUCT_NAME = JomloTableView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		D0AE5BC4229FB92C9854FC369B704A6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35077355555B9D80D594AC0F034EEDFF /* TwitterCore.debug.xcconfig */;
@@ -971,8 +971,8 @@
 		1AFCB79406BAA0784AC1C8E0ED39A01C /* Build configuration list for PBXNativeTarget "JomloTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A8791617F28CE436BB71EB8A91C0F5B7 /* Debug */,
-				BBC2E1315D622CFB598FCB3343A80C50 /* Release */,
+				81F21FB60705F708F3EE88568E557F11 /* Debug */,
+				8CA4C84EEF9EFE8E339F76A51F1E2010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

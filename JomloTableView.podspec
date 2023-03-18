@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JomloTableView'
   s.version          = '1.0.0'
-  s.swift_version    = '4.1'
+  s.swift_version    = '5.7.3'
   s.summary          = 'A UITableView with detachable section and row.'
 
 # This description is used to generate tags and improve search results.

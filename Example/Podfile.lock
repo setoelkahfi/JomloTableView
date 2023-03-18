@@ -1,5 +1,5 @@
 PODS:
-  - JomloTableView (0.2.1)
+  - JomloTableView (1.0.0)
   - TwitterCore (3.2.0)
   - TwitterKit (3.4.2):
     - TwitterCore (>= 3.2.0)
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JomloTableView: d5eeee6b5ecb18ad7ea865fffce303edb038a579
+  JomloTableView: 2b528d159c136bb0947bee3da2624505a757b3b3
   TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
   TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
 

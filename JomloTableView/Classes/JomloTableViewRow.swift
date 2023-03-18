@@ -35,7 +35,7 @@ open class JomloTableViewRow: NSObject {
         return 0
     }
     
-    open func setOnRowClicked(_ callback: @escaping (JomloTableViewRow) -> Void){
+    open func setOnRowClicked(_ callback: @escaping (JomloTableViewRow) -> Void) {
         self.callback = callback
     }
     
@@ -45,8 +45,8 @@ open class JomloTableViewRow: NSObject {
         fatalError("Must be overrided")
     }
     
-    open func willDisplay(cell: UITableViewCell){
-        cell.separatorInset = UIEdgeInsetsMake(0, 6, 0, 6)
+    open func willDisplay(cell: UITableViewCell) {
+        cell.separatorInset = UIEdgeInsets(top: 0, left: 6, bottom: 0, right: 6)
     }
     
     // Call the callback

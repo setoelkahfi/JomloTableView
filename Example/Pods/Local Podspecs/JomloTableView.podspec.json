@@ -1,7 +1,7 @@
 {
   "name": "JomloTableView",
-  "version": "0.2.1",
-  "swift_versions": "4.1",
+  "version": "1.0.0",
+  "swift_versions": "5.0",
   "summary": "A UITableView with detachable section and row.",
   "description": "JomloTableView uses detachable section and row. You can add multiple section individually and add rows to each section. See example project for how to use this library.",
   "homepage": "https://github.com/setoelkahfi/JomloTableView",
@@ -14,12 +14,12 @@
   },
   "source": {
     "git": "https://github.com/setoelkahfi/JomloTableView.git",
-    "tag": "0.2.1"
+    "tag": "1.0.0"
   },
   "social_media_url": "https://twitter.com/setoelkahfi",
   "platforms": {
     "ios": "11.0"
   },
   "source_files": "JomloTableView/Classes/**/*",
-  "swift_version": "4.1"
+  "swift_version": "5.0"
 }
