@@ -1,27 +1,16 @@
 PODS:
   - JomloTableView (1.0.0)
-  - TwitterCore (3.2.0)
-  - TwitterKit (3.4.2):
-    - TwitterCore (>= 3.2.0)
 
 DEPENDENCIES:
   - JomloTableView (from `../`)
-  - TwitterKit
-
-SPEC REPOS:
-  trunk:
-    - TwitterCore
-    - TwitterKit
 
 EXTERNAL SOURCES:
   JomloTableView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JomloTableView: 2b528d159c136bb0947bee3da2624505a757b3b3
-  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
-  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+  JomloTableView: fcd5b479b86c4518057b04452fd865a74e477891
 
-PODFILE CHECKSUM: 9dbb4004804d35769d24e1473b97c53ee99ab8b4
+PODFILE CHECKSUM: 547f75330e469611b9ae91e08c9c19ca4603788d
 
 COCOAPODS: 1.12.0

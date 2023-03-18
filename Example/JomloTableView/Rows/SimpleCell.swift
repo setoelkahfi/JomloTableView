@@ -31,7 +31,7 @@ class SimpleRow: JomloTableViewRow {
     }
     
     override var rowHeight: CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     override var estimatedRowHeight: CGFloat {

@@ -8,31 +8,17 @@
 
 import UIKit
 import JomloTableView
-import TwitterKit
 
 class SimpleTableViewController: UIViewController {
 
     @IBOutlet var jomloTableView: JomloTableView!
     
     let tableSection = JomloTableViewSection()
-    let client = TWTRAPIClient()
-    var loginButton: TWTRLogInButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         jomloTableView.addSection(section: tableSection)
-        
-        loginButton = TWTRLogInButton { (session, error) in
-            if let session = session {
-                print("Signed as: \(session.userName)")
-                self.loadTweets()
-            } else {
-                print("Error: \(error?.localizedDescription)")
-            }
-        }
-        loginButton.center = view.center
-        view.addSubview(loginButton)
         
     }
 
@@ -41,21 +27,6 @@ class SimpleTableViewController: UIViewController {
         let searchEndPoint = "https://api.twitter.com/1.1/search/tweets.json"
         let params = ["q" : "jomlo"]
         var clientError: NSError?
-        
-        let request = client.urlRequest(withMethod: "GET", urlString: searchEndPoint, parameters: params, error: &clientError)
-        
-        client.sendTwitterRequest(request) { (response, data, connectionError) in
-            
-            if let data = data {
-                self.populate(data: data)
-            }
-            
-            if let error = connectionError {
-                print("Error: \(error.localizedDescription)")
-            }
-            
-
-        }
     }
 
     internal func populate(data: Data) {
@@ -75,7 +46,6 @@ class SimpleTableViewController: UIViewController {
 
                     }
                     DispatchQueue.main.async {
-                        self.loginButton.removeFromSuperview()
                         self.jomloTableView.reloadData()
                     }
                 }

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /**
  This main class is basically a subclass from UITableView with sections array to hold row(s).

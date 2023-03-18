@@ -15,22 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "JomloTableView_Example.app"
-               BlueprintName = "JomloTableView_Example"
-               ReferencedContainer = "container:JomloTableView.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "JomloTableView_Tests.xctest"
-               BlueprintName = "JomloTableView_Tests"
+               BuildableName = "JomloTableView_Example_iOS.app"
+               BlueprintName = "JomloTableView_Example_iOS"
                ReferencedContainer = "container:JomloTableView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,22 +31,12 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "JomloTableView_Example.app"
-            BlueprintName = "JomloTableView_Example"
+            BuildableName = "JomloTableView_Example_iOS.app"
+            BlueprintName = "JomloTableView_Example_iOS"
             ReferencedContainer = "container:JomloTableView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "JomloTableView_Tests.xctest"
-               BlueprintName = "JomloTableView_Tests"
-               ReferencedContainer = "container:JomloTableView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -78,8 +54,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "JomloTableView_Example.app"
-            BlueprintName = "JomloTableView_Example"
+            BuildableName = "JomloTableView_Example_iOS.app"
+            BlueprintName = "JomloTableView_Example_iOS"
             ReferencedContainer = "container:JomloTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +71,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "JomloTableView_Example.app"
-            BlueprintName = "JomloTableView_Example"
+            BuildableName = "JomloTableView_Example_iOS.app"
+            BlueprintName = "JomloTableView_Example_iOS"
             ReferencedContainer = "container:JomloTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
