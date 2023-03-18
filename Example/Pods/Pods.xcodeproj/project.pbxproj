@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ADF366BFAABB16276B57DC51883EA72 /* JomloTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011AF2D29CBDF8A7EF35FC6CC45B0A6 /* JomloTableView.swift */; };
-		2315EA2F3880C380581054FC132F2232 /* JomloTableView-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE161109C641BB57A7C43EFF2DD803C /* JomloTableView-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3501C19130C79AACFF1D4B1374ED7328 /* JomloTableView-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51550B78A1B8873D9506F1B8E87B8085 /* JomloTableView-iOS-dummy.m */; };
+		0BF461F52C3D8FE618D118A1F3DE6F66 /* JomloTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFB3043D700143713954B0FC3CD26F7 /* JomloTableViewRow.swift */; };
+		2315EA2F3880C380581054FC132F2232 /* JomloTableView-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E58C54FE1FEF38F169024C6108B663E /* JomloTableView-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3501C19130C79AACFF1D4B1374ED7328 /* JomloTableView-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A67EF04DF344B9A15F8004ABEE92B7F /* JomloTableView-iOS-dummy.m */; };
+		3C8A625FB15C15C452188253027DBE13 /* JomloTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBE1F7D3A2AB47667C9ECBD8C7A89E /* JomloTableViewSection.swift */; };
 		5AF1A4FC767A2722D25F6E772BBA37EA /* Pods-JomloTableView_Example_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3F2D471A2F53FD2C9B71AA74269922 /* Pods-JomloTableView_Example_iOS-dummy.m */; };
 		7212A0C1D6E98A114D5C38C92BB858B6 /* Pods-JomloTableView_Example_tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E806E87068B7CFD41C5329E4D6D8145 /* Pods-JomloTableView_Example_tvOS-dummy.m */; };
-		738A6C3A7CCFFBF3A7A5831313388584 /* JomloTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F14A62B71493622C5074604D68578 /* JomloTableViewSection.swift */; };
 		764C049CB27A6051F3F52E3D31484696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
-		7938E2BCF2A3D469615F49178B928879 /* JomloTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665F14A62B71493622C5074604D68578 /* JomloTableViewSection.swift */; };
-		7E81EBD2FCC910F18A26736A7DE3AFAA /* JomloTableView-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EF433B3568998F6DE21B54BA21C48D /* JomloTableView-tvOS-dummy.m */; };
-		86E85D326EDD0AD7CDB9A95DA12CA9ED /* JomloTableView-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A870403A6DA6542ED7EA50BC6C31FC /* JomloTableView-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C2100207A6A2D78E50DA2D337E7AACF /* JomloTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A816A9DEA5C8F0919521BFEB83F5E /* JomloTableViewCell.swift */; };
-		A7B03F7949B7B9A1D657550C05948BDD /* JomloTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A816A9DEA5C8F0919521BFEB83F5E /* JomloTableViewCell.swift */; };
+		7E81EBD2FCC910F18A26736A7DE3AFAA /* JomloTableView-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E540F1A4789CA60A09200DF0BDE12E /* JomloTableView-tvOS-dummy.m */; };
+		86E85D326EDD0AD7CDB9A95DA12CA9ED /* JomloTableView-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 266C93DF892BE926811596BCF6E264B1 /* JomloTableView-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7B47C63CEFAC86A27614F5C62CB3880 /* JomloTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFFB3043D700143713954B0FC3CD26F7 /* JomloTableViewRow.swift */; };
+		A85F6209C05A81E444DAF22074BEF0E7 /* JomloTableViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BBE1F7D3A2AB47667C9ECBD8C7A89E /* JomloTableViewSection.swift */; };
 		A9CF767D4A8AC1BBCE161362D958AFDB /* Pods-JomloTableView_Example_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8371EAD86E3E5C55CC947CFF93C9B060 /* Pods-JomloTableView_Example_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA22C3C683F4199A68CC5F82C5C19B51 /* JomloTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E4C482E22EE780A09232782A30774D /* JomloTableViewRow.swift */; };
+		ACEC737C78F98C45BB917D1846ED4466 /* JomloTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA665AE0349F9E28270236A8E50EF5 /* JomloTableView.swift */; };
 		BA910E71C4528AD88FB24A679946080D /* Pods-JomloTableView_Example_tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0D980AC651B4459495267C80F1303D /* Pods-JomloTableView_Example_tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C76DE31FCCBD473DC2473B60D3B1C587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
-		D13F65F20B7F00AD81F54B8C88256942 /* JomloTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011AF2D29CBDF8A7EF35FC6CC45B0A6 /* JomloTableView.swift */; };
-		E1975FBA9EE15ED7B18E8464D35CF435 /* JomloTableViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E4C482E22EE780A09232782A30774D /* JomloTableViewRow.swift */; };
 		ECFBC262DB2BFA52D2CACC2BD9C51C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
 		F7382C4F6F3437402AE57BE29A3BD8F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
+		F8AA06EFF9932125CD200BCB8597CF74 /* JomloTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA665AE0349F9E28270236A8E50EF5 /* JomloTableView.swift */; };
+		FA3AB8A459DCEBF272DB9C314247C5EB /* JomloTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6416201CC25A483DEC5ACC8774046A /* JomloTableViewCell.swift */; };
+		FD7351A2EBF565E67AC80C482676A3A3 /* JomloTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6416201CC25A483DEC5ACC8774046A /* JomloTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,52 +47,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19A870403A6DA6542ED7EA50BC6C31FC /* JomloTableView-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JomloTableView-iOS-umbrella.h"; sourceTree = "<group>"; };
-		1A5C1337181D47A23EB408801382B128 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14CA665AE0349F9E28270236A8E50EF5 /* JomloTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JomloTableView.swift; path = Sources/JomloTableView/JomloTableView.swift; sourceTree = "<group>"; };
+		1E58C54FE1FEF38F169024C6108B663E /* JomloTableView-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JomloTableView-tvOS-umbrella.h"; path = "../JomloTableView-tvOS/JomloTableView-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		1F081E30E99026E063F8EF080B1EA004 /* Pods-JomloTableView_Example_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JomloTableView_Example_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2011AF2D29CBDF8A7EF35FC6CC45B0A6 /* JomloTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JomloTableView.swift; path = JomloTableView/Classes/JomloTableView.swift; sourceTree = "<group>"; };
-		27F2F5060DB6A8ACBD5FDEF2F5406B1F /* JomloTableView-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "JomloTableView-tvOS-Info.plist"; path = "../JomloTableView-tvOS/JomloTableView-tvOS-Info.plist"; sourceTree = "<group>"; };
-		37A740C48D2A86ADCDED4C49AA7BF7A0 /* JomloTableView-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "JomloTableView-iOS.modulemap"; sourceTree = "<group>"; };
-		4C4B4772B520FDA105119BAF7FD1ED24 /* JomloTableView-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JomloTableView-tvOS-prefix.pch"; path = "../JomloTableView-tvOS/JomloTableView-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		266C93DF892BE926811596BCF6E264B1 /* JomloTableView-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JomloTableView-iOS-umbrella.h"; sourceTree = "<group>"; };
+		2723D3BDE86EFC9819A6BFA7CE6E1DA6 /* JomloTableView-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JomloTableView-iOS-Info.plist"; sourceTree = "<group>"; };
+		30E372F1CD169335C00396DC014CF222 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		43E96DA7E6506310806762612D263247 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		463C7EE16E7E0748DE34FA4CD4A2711E /* JomloTableView-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "JomloTableView-tvOS.modulemap"; path = "../JomloTableView-tvOS/JomloTableView-tvOS.modulemap"; sourceTree = "<group>"; };
 		4D3F2D471A2F53FD2C9B71AA74269922 /* Pods-JomloTableView_Example_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JomloTableView_Example_iOS-dummy.m"; sourceTree = "<group>"; };
 		4D7D748AED60DC07397260F78FC4DAC0 /* Pods-JomloTableView_Example_tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JomloTableView_Example_tvOS.modulemap"; sourceTree = "<group>"; };
-		51550B78A1B8873D9506F1B8E87B8085 /* JomloTableView-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JomloTableView-iOS-dummy.m"; sourceTree = "<group>"; };
 		54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		611C6EDCDA24D677629A32F76F8A1FD6 /* JomloTableView-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JomloTableView-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		665F14A62B71493622C5074604D68578 /* JomloTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JomloTableViewSection.swift; path = JomloTableView/Classes/JomloTableViewSection.swift; sourceTree = "<group>"; };
+		5A0A908FBB675390AD911904D8783C9C /* JomloTableView-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JomloTableView-iOS-prefix.pch"; sourceTree = "<group>"; };
+		64CFBFEB63B97E379A8CF5357657F16D /* JomloTableView-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "JomloTableView-tvOS.release.xcconfig"; path = "../JomloTableView-tvOS/JomloTableView-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		6A0D980AC651B4459495267C80F1303D /* Pods-JomloTableView_Example_tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JomloTableView_Example_tvOS-umbrella.h"; sourceTree = "<group>"; };
-		70EF433B3568998F6DE21B54BA21C48D /* JomloTableView-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JomloTableView-tvOS-dummy.m"; path = "../JomloTableView-tvOS/JomloTableView-tvOS-dummy.m"; sourceTree = "<group>"; };
-		72AAD4727B91B7A93983664D8406E7AD /* JomloTableView-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "JomloTableView-tvOS.modulemap"; path = "../JomloTableView-tvOS/JomloTableView-tvOS.modulemap"; sourceTree = "<group>"; };
+		71F2E5CE11D5CF72CCBE8EC5B3267A4B /* JomloTableView-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JomloTableView-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		80383E50572115E4E929D8181136954E /* Pods-JomloTableView_Example_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JomloTableView_Example_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		80B82B89771016E3C556E1D058496AF0 /* JomloTableView-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "JomloTableView-iOS"; path = JomloTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819633819D4111990F65DCC3918E254A /* JomloTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JomloTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		835515ECE3A33ED4DF24120D648559F0 /* Pods-JomloTableView_Example_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JomloTableView_Example_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8371EAD86E3E5C55CC947CFF93C9B060 /* Pods-JomloTableView_Example_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JomloTableView_Example_iOS-umbrella.h"; sourceTree = "<group>"; };
 		84037A93B01DB99E1C41A5AF1E6581F7 /* Pods-JomloTableView_Example_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JomloTableView_Example_iOS-frameworks.sh"; sourceTree = "<group>"; };
 		862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8E806E87068B7CFD41C5329E4D6D8145 /* Pods-JomloTableView_Example_tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JomloTableView_Example_tvOS-dummy.m"; sourceTree = "<group>"; };
-		94CB6D20E125CAB2C8CFE8257E2DBD6C /* JomloTableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JomloTableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97968B316F158E203D38B82C7C92CECD /* Pods-JomloTableView_Example_tvOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JomloTableView_Example_tvOS"; path = Pods_JomloTableView_Example_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97E1017699436AD586FF63E4D8AC092A /* Pods-JomloTableView_Example_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JomloTableView_Example_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9A5A816A9DEA5C8F0919521BFEB83F5E /* JomloTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JomloTableViewCell.swift; path = JomloTableView/Classes/JomloTableViewCell.swift; sourceTree = "<group>"; };
+		9A67EF04DF344B9A15F8004ABEE92B7F /* JomloTableView-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JomloTableView-iOS-dummy.m"; sourceTree = "<group>"; };
 		9BC3E85C4EF06F58C8023A865589834F /* Pods-JomloTableView_Example_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JomloTableView_Example_iOS-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0648D4FF2DE4200E413474B8FD5376 /* JomloTableView-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JomloTableView-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A77391E20A1D96D2DC9243C23B05907D /* Pods-JomloTableView_Example_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JomloTableView_Example_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		A9DCB7FCD5E8E442F291FE31F0910625 /* Pods-JomloTableView_Example_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JomloTableView_Example_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		AAE161109C641BB57A7C43EFF2DD803C /* JomloTableView-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JomloTableView-tvOS-umbrella.h"; path = "../JomloTableView-tvOS/JomloTableView-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		ADC98F9D544704978FDEAE5C6942506E /* Pods-JomloTableView_Example_tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JomloTableView_Example_tvOS-Info.plist"; sourceTree = "<group>"; };
-		AFCDC1F80EDD7D38B02022F80586392C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B1243AB1AE47B34E4FD860552A026D07 /* Pods-JomloTableView_Example_tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JomloTableView_Example_tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B3E4C482E22EE780A09232782A30774D /* JomloTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JomloTableViewRow.swift; path = JomloTableView/Classes/JomloTableViewRow.swift; sourceTree = "<group>"; };
+		C4E540F1A4789CA60A09200DF0BDE12E /* JomloTableView-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JomloTableView-tvOS-dummy.m"; path = "../JomloTableView-tvOS/JomloTableView-tvOS-dummy.m"; sourceTree = "<group>"; };
 		C6FE7373C44B05084A2B3680243BFF96 /* Pods-JomloTableView_Example_tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JomloTableView_Example_tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		C9031042C323AB5660108C22AA6E6714 /* Pods-JomloTableView_Example_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JomloTableView_Example_iOS.modulemap"; sourceTree = "<group>"; };
+		CB6416201CC25A483DEC5ACC8774046A /* JomloTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JomloTableViewCell.swift; path = Sources/JomloTableView/JomloTableViewCell.swift; sourceTree = "<group>"; };
+		CFFE7CC693687D2D4877FEB5D5DBC192 /* JomloTableView-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "JomloTableView-tvOS.debug.xcconfig"; path = "../JomloTableView-tvOS/JomloTableView-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D03E4BD20A94EB87F0F542A5C3864D69 /* Pods-JomloTableView_Example_tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JomloTableView_Example_tvOS-frameworks.sh"; sourceTree = "<group>"; };
-		DB60475977F8BF8EE8638A2E78317A5F /* JomloTableView-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JomloTableView-iOS-prefix.pch"; sourceTree = "<group>"; };
-		DE46D0E5FA619FDF7AA140C541E57F55 /* JomloTableView-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JomloTableView-iOS-Info.plist"; sourceTree = "<group>"; };
-		E9FA355A88E37F2E319D95A60325DBFB /* JomloTableView-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "JomloTableView-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		EC518E005776CADA22CE3FF761BD3E23 /* JomloTableView-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "JomloTableView-tvOS.debug.xcconfig"; path = "../JomloTableView-tvOS/JomloTableView-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D20CBB5B642762104598BD94008CADE4 /* JomloTableView-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "JomloTableView-tvOS-Info.plist"; path = "../JomloTableView-tvOS/JomloTableView-tvOS-Info.plist"; sourceTree = "<group>"; };
+		D2997DFEBE5CF9258FCF5C1558C5733C /* JomloTableView-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "JomloTableView-iOS.modulemap"; sourceTree = "<group>"; };
+		E9BAF2B9F204EE243415C545ECF9AEA0 /* JomloTableView-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JomloTableView-tvOS-prefix.pch"; path = "../JomloTableView-tvOS/JomloTableView-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		ECF4E3162BC42678792C74692C1140D3 /* Pods-JomloTableView_Example_iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JomloTableView_Example_iOS"; path = Pods_JomloTableView_Example_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFB3043D700143713954B0FC3CD26F7 /* JomloTableViewRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JomloTableViewRow.swift; path = Sources/JomloTableView/JomloTableViewRow.swift; sourceTree = "<group>"; };
+		F0BBE1F7D3A2AB47667C9ECBD8C7A89E /* JomloTableViewSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JomloTableViewSection.swift; path = Sources/JomloTableView/JomloTableViewSection.swift; sourceTree = "<group>"; };
 		F2B80DE8F893786F15C4F020EAF39E44 /* JomloTableView-tvOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "JomloTableView-tvOS"; path = JomloTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F95F90D1C3078DED017617917F6DF37F /* JomloTableView-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "JomloTableView-tvOS.release.xcconfig"; path = "../JomloTableView-tvOS/JomloTableView-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +140,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		0739D488292F02AB0C524DB8128EBE4B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				819633819D4111990F65DCC3918E254A /* JomloTableView.podspec */,
+				43E96DA7E6506310806762612D263247 /* LICENSE */,
+				30E372F1CD169335C00396DC014CF222 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		302E89969B0BF2FDAA0B65043C1228D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,15 +161,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3CF8BDF2DA5D9E877154166B7FCDEC9B /* JomloTableView */ = {
+		4E42646F21F63C397DE98423647ED8D9 /* JomloTableView */ = {
 			isa = PBXGroup;
 			children = (
-				2011AF2D29CBDF8A7EF35FC6CC45B0A6 /* JomloTableView.swift */,
-				9A5A816A9DEA5C8F0919521BFEB83F5E /* JomloTableViewCell.swift */,
-				B3E4C482E22EE780A09232782A30774D /* JomloTableViewRow.swift */,
-				665F14A62B71493622C5074604D68578 /* JomloTableViewSection.swift */,
-				E9E5AD8E0DBAA337249E86E05908A4AB /* Pod */,
-				A660641CCEC6AD355A9E7DA18574536E /* Support Files */,
+				14CA665AE0349F9E28270236A8E50EF5 /* JomloTableView.swift */,
+				CB6416201CC25A483DEC5ACC8774046A /* JomloTableViewCell.swift */,
+				EFFB3043D700143713954B0FC3CD26F7 /* JomloTableViewRow.swift */,
+				F0BBE1F7D3A2AB47667C9ECBD8C7A89E /* JomloTableViewSection.swift */,
+				0739D488292F02AB0C524DB8128EBE4B /* Pod */,
+				F2FFF1E0F2BF23025FA57EAB7AE006D7 /* Support Files */,
 			);
 			name = JomloTableView;
 			path = ../..;
@@ -199,32 +209,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A660641CCEC6AD355A9E7DA18574536E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				37A740C48D2A86ADCDED4C49AA7BF7A0 /* JomloTableView-iOS.modulemap */,
-				51550B78A1B8873D9506F1B8E87B8085 /* JomloTableView-iOS-dummy.m */,
-				DE46D0E5FA619FDF7AA140C541E57F55 /* JomloTableView-iOS-Info.plist */,
-				DB60475977F8BF8EE8638A2E78317A5F /* JomloTableView-iOS-prefix.pch */,
-				19A870403A6DA6542ED7EA50BC6C31FC /* JomloTableView-iOS-umbrella.h */,
-				E9FA355A88E37F2E319D95A60325DBFB /* JomloTableView-iOS.debug.xcconfig */,
-				611C6EDCDA24D677629A32F76F8A1FD6 /* JomloTableView-iOS.release.xcconfig */,
-				72AAD4727B91B7A93983664D8406E7AD /* JomloTableView-tvOS.modulemap */,
-				70EF433B3568998F6DE21B54BA21C48D /* JomloTableView-tvOS-dummy.m */,
-				27F2F5060DB6A8ACBD5FDEF2F5406B1F /* JomloTableView-tvOS-Info.plist */,
-				4C4B4772B520FDA105119BAF7FD1ED24 /* JomloTableView-tvOS-prefix.pch */,
-				AAE161109C641BB57A7C43EFF2DD803C /* JomloTableView-tvOS-umbrella.h */,
-				EC518E005776CADA22CE3FF761BD3E23 /* JomloTableView-tvOS.debug.xcconfig */,
-				F95F90D1C3078DED017617917F6DF37F /* JomloTableView-tvOS.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JomloTableView-iOS";
-			sourceTree = "<group>";
-		};
 		ADF090B6D59D9030567FA6AE001E41E8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3CF8BDF2DA5D9E877154166B7FCDEC9B /* JomloTableView */,
+				4E42646F21F63C397DE98423647ED8D9 /* JomloTableView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -265,14 +253,26 @@
 			path = "Target Support Files/Pods-JomloTableView_Example_tvOS";
 			sourceTree = "<group>";
 		};
-		E9E5AD8E0DBAA337249E86E05908A4AB /* Pod */ = {
+		F2FFF1E0F2BF23025FA57EAB7AE006D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				94CB6D20E125CAB2C8CFE8257E2DBD6C /* JomloTableView.podspec */,
-				AFCDC1F80EDD7D38B02022F80586392C /* LICENSE */,
-				1A5C1337181D47A23EB408801382B128 /* README.md */,
+				D2997DFEBE5CF9258FCF5C1558C5733C /* JomloTableView-iOS.modulemap */,
+				9A67EF04DF344B9A15F8004ABEE92B7F /* JomloTableView-iOS-dummy.m */,
+				2723D3BDE86EFC9819A6BFA7CE6E1DA6 /* JomloTableView-iOS-Info.plist */,
+				5A0A908FBB675390AD911904D8783C9C /* JomloTableView-iOS-prefix.pch */,
+				266C93DF892BE926811596BCF6E264B1 /* JomloTableView-iOS-umbrella.h */,
+				9E0648D4FF2DE4200E413474B8FD5376 /* JomloTableView-iOS.debug.xcconfig */,
+				71F2E5CE11D5CF72CCBE8EC5B3267A4B /* JomloTableView-iOS.release.xcconfig */,
+				463C7EE16E7E0748DE34FA4CD4A2711E /* JomloTableView-tvOS.modulemap */,
+				C4E540F1A4789CA60A09200DF0BDE12E /* JomloTableView-tvOS-dummy.m */,
+				D20CBB5B642762104598BD94008CADE4 /* JomloTableView-tvOS-Info.plist */,
+				E9BAF2B9F204EE243415C545ECF9AEA0 /* JomloTableView-tvOS-prefix.pch */,
+				1E58C54FE1FEF38F169024C6108B663E /* JomloTableView-tvOS-umbrella.h */,
+				CFFE7CC693687D2D4877FEB5D5DBC192 /* JomloTableView-tvOS.debug.xcconfig */,
+				64CFBFEB63B97E379A8CF5357657F16D /* JomloTableView-tvOS.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JomloTableView-iOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,11 +453,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D13F65F20B7F00AD81F54B8C88256942 /* JomloTableView.swift in Sources */,
+				ACEC737C78F98C45BB917D1846ED4466 /* JomloTableView.swift in Sources */,
 				3501C19130C79AACFF1D4B1374ED7328 /* JomloTableView-iOS-dummy.m in Sources */,
-				8C2100207A6A2D78E50DA2D337E7AACF /* JomloTableViewCell.swift in Sources */,
-				E1975FBA9EE15ED7B18E8464D35CF435 /* JomloTableViewRow.swift in Sources */,
-				7938E2BCF2A3D469615F49178B928879 /* JomloTableViewSection.swift in Sources */,
+				FA3AB8A459DCEBF272DB9C314247C5EB /* JomloTableViewCell.swift in Sources */,
+				A7B47C63CEFAC86A27614F5C62CB3880 /* JomloTableViewRow.swift in Sources */,
+				A85F6209C05A81E444DAF22074BEF0E7 /* JomloTableViewSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,11 +481,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADF366BFAABB16276B57DC51883EA72 /* JomloTableView.swift in Sources */,
+				F8AA06EFF9932125CD200BCB8597CF74 /* JomloTableView.swift in Sources */,
 				7E81EBD2FCC910F18A26736A7DE3AFAA /* JomloTableView-tvOS-dummy.m in Sources */,
-				A7B03F7949B7B9A1D657550C05948BDD /* JomloTableViewCell.swift in Sources */,
-				AA22C3C683F4199A68CC5F82C5C19B51 /* JomloTableViewRow.swift in Sources */,
-				738A6C3A7CCFFBF3A7A5831313388584 /* JomloTableViewSection.swift in Sources */,
+				FD7351A2EBF565E67AC80C482676A3A3 /* JomloTableViewCell.swift in Sources */,
+				0BF461F52C3D8FE618D118A1F3DE6F66 /* JomloTableViewRow.swift in Sources */,
+				3C8A625FB15C15C452188253027DBE13 /* JomloTableViewSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,7 +575,7 @@
 		};
 		365746BE9A9066B63A51E6D102A54291 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9FA355A88E37F2E319D95A60325DBFB /* JomloTableView-iOS.debug.xcconfig */;
+			baseConfigurationReference = 9E0648D4FF2DE4200E413474B8FD5376 /* JomloTableView-iOS.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -674,7 +674,7 @@
 		};
 		5236F33C7A17725CB8D6FEBDFF7F94D2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 611C6EDCDA24D677629A32F76F8A1FD6 /* JomloTableView-iOS.release.xcconfig */;
+			baseConfigurationReference = 71F2E5CE11D5CF72CCBE8EC5B3267A4B /* JomloTableView-iOS.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -707,7 +707,7 @@
 		};
 		739715D53C57B4C3184BF36B75055799 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F95F90D1C3078DED017617917F6DF37F /* JomloTableView-tvOS.release.xcconfig */;
+			baseConfigurationReference = 64CFBFEB63B97E379A8CF5357657F16D /* JomloTableView-tvOS.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -806,7 +806,7 @@
 		};
 		D5438CAEBC00A818552826DB2A00AD88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC518E005776CADA22CE3FF761BD3E23 /* JomloTableView-tvOS.debug.xcconfig */;
+			baseConfigurationReference = CFFE7CC693687D2D4877FEB5D5DBC192 /* JomloTableView-tvOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
