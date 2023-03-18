@@ -1,8 +1,9 @@
+platform :ios, '11.0'
+
 use_frameworks!
 
 target 'JomloTableView_Example' do
   pod 'JomloTableView', :path => '../'
-  pod 'Fabric'
   pod 'TwitterKit'
   target 'JomloTableView_Tests' do
     inherit! :search_paths

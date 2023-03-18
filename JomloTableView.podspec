@@ -8,7 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JomloTableView'
-  s.version          = '0.2.1'
+  s.version          = '1.0.0'
+  s.swift_version    = '4.1'
   s.summary          = 'A UITableView with detachable section and row.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +29,7 @@ JomloTableView uses detachable section and row. You can add multiple section ind
   s.source           = { :git => 'https://github.com/setoelkahfi/JomloTableView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/setoelkahfi'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'JomloTableView/Classes/**/*'
   
