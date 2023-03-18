@@ -1,9 +1,19 @@
-//
-//  TWTRGuestSession.h
-//  TwitterKit
-//
-//  Copyright (c) 2015 Twitter. All rights reserved.
-//
+/*
+ * Copyright (C) 2017 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
 
 #import <Foundation/Foundation.h>
 #import <TwitterCore/TWTRAuthSession.h>
@@ -18,7 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param guestSession A `TWTRGuestSession` containing the OAuth tokens or nil.
  *  @param error Error that will be non nil if the authentication request failed.
  */
-typedef void (^TWTRGuestLogInCompletion)(TWTRGuestSession * _Nullable guestSession, NSError * _Nullable error);
+typedef void (^TWTRGuestLogInCompletion)(TWTRGuestSession *_Nullable guestSession, NSError *_Nullable error);
 
 /**
  *  `TWTRGuestSession` represents a guest session authenticated with the Twitter API. See `TWTRSession` for user sessions.

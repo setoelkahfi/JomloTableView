@@ -1,8 +1,19 @@
-//
-//  TWTRAPIErrorCode.h
-//
-//  Copyright (c) 2015 Twitter. All rights reserved.
-//
+/*
+ * Copyright (C) 2017 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
 
 #import <Foundation/Foundation.h>
 
@@ -11,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  The NSError domain of errors surfaced by the Twitter API.
  */
-FOUNDATION_EXPORT NSString * const TWTRAPIErrorDomain;
+FOUNDATION_EXTERN NSString *const TWTRAPIErrorDomain;
 
 /**
  *  Error codes surfaced by the Twitter API.
@@ -32,12 +43,12 @@ typedef NS_ENUM(NSUInteger, TWTRAPIErrorCode) {
      *  Not authorized to use this endpoint.
      */
     TWTRAPIErrorCodeNotAuthorizedForEndpoint = 37,
-    
+
     /**
      * Generic API error code for invalid parameter
      */
     TWTRAPIErrorCodeInvalidParameter = 44,
-    
+
     /**
      *  Corresponds with an HTTP 403 — the access token being used belongs to a suspended user and they can't complete the action you're trying to take
      */
@@ -122,17 +133,17 @@ typedef NS_ENUM(NSUInteger, TWTRAPIErrorCode) {
      * Returned from server in digits sign-in flow if user provides wrong confirmation code
      */
     TWTRAPIErrorCodeChallengeCodeInvalid = 236,
-    
+
     /**
-     *  "Bad guest token." The token has probably expired. Try calling `-[Twitter logInGuestWithCompletion:]` again later.
+     *  "Bad guest token." The token has probably expired. Try calling `-[TWTRTwitter logInGuestWithCompletion:]` again later.
      */
     TWTRAPIErrorCodeBadGuestToken = 239,
-    
+
     /**
      * Rate limiting case for /1/sdk/login
      */
     TWTRAPIErrorCodeLoginRateExceeded = 245,
-    
+
     /**
      *  Corresponds to a HTTP request to a retired URL.
      */
@@ -152,13 +163,12 @@ typedef NS_ENUM(NSUInteger, TWTRAPIErrorCode) {
      *  Corresponds with HTTP 403. The authenticated user account is not muting the account a call is attempting to unmute.
      */
     TWTRAPIErrorCodeCannotMuteSpecifiedUser = 272,
-    
+
     /**
      * Rate limiting case for /1.1/device/register.json endpint
      */
     TWTRAPIErrorCodeDeviceRegisterRateExceeded = 299,
 
-    
     /**
      *  Phone's carrier not suppported and we can not deliver the sms/make the voice call
      */
