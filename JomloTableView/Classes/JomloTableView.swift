@@ -8,6 +8,12 @@
 
 import Foundation
 
+/**
+ This main class is basically a subclass from UITableView with sections array to hold row(s).
+ This table view directly conform to UITableViewDelegate and UITableViewDataSource, makes your 
+ view controller that use table view free from conforming these two protocols.
+ 
+ */
 public class JomloTableView: UITableView {
     
     // Table view section
@@ -40,6 +46,8 @@ public class JomloTableView: UITableView {
 
 extension JomloTableView: UITableViewDelegate {
     
+    // MARK: - UITableViewDelegate delegate extension
+    
     public func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return sections[indexPath.section].rows[indexPath.row].estimatedRowHeight
     }
@@ -60,6 +68,8 @@ extension JomloTableView: UITableViewDelegate {
 }
 
 extension JomloTableView: UITableViewDataSource {
+    
+    // MARK: - UITableViewDataSource delegate extension
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if sections.count > 0 {

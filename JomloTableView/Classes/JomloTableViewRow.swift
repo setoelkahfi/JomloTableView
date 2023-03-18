@@ -8,6 +8,10 @@
 
 import Foundation
 
+/**
+ A singe row to be inserted in an instance of JomloTableViewSection. Subclass from this class and reference the identifier
+ that used by its corresponding cell view. The cell is a subclass from JomloTableViewCell.
+ */
 open class JomloTableViewRow: NSObject {
     
     // Callback for on row clicked.

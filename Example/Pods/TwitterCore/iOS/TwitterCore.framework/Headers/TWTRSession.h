@@ -1,8 +1,23 @@
-//
-//  TWTRSession.h
-//
-//  Copyright (c) 2015 Twitter. All rights reserved.
-//
+/*
+ * Copyright (C) 2017 Twitter, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+/**
+ This header is private to the Twitter Core SDK and not exposed for public SDK consumption
+ */
 
 #import <TwitterCore/TWTRAuthConfig.h>
 #import <TwitterCore/TWTRAuthSession.h>
@@ -18,7 +33,7 @@ NS_ASSUME_NONNULL_BEGIN
  *  @param session Contains the OAuth tokens and minimal information associated with the logged in user or nil.
  *  @param error   Error that will be non nil if the authentication request failed.
  */
-typedef void (^TWTRLogInCompletion)(TWTRSession * _Nullable session,  NSError * _Nullable error);
+typedef void (^TWTRLogInCompletion)(TWTRSession *_Nullable session, NSError *_Nullable error);
 
 /**
  *  TWTRSession represents a user's session authenticated with the Twitter API.
@@ -48,6 +63,15 @@ typedef void (^TWTRLogInCompletion)(TWTRSession * _Nullable session,  NSError * 
  *  @param sessionDictionary (required) The dictionary received after successfull authentication from Twitter OAuth.
  */
 - (instancetype)initWithSessionDictionary:(NSDictionary *)sessionDictionary;
+
+/**
+ *  Returns a `TWTRSession` object initialized by copying the values
+ *  from the dictionary returned from a Mobile SSO redirect URL.
+ *
+ *  @param authDictionary (required) The dictionary received after successful
+ *                                  authentication from Twitter Mobile SSO.
+ */
+- (instancetype)initWithSSOResponse:(NSDictionary *)authDictionary;
 
 /**
  *  Returns an `TWTRSession` object initialized by copying the given tokens and user info.
