@@ -7,7 +7,10 @@
 //
 
 import Foundation
+#if canImport(UIKit)
+import UIKit
 
+@available(iOS 11.0, tvOS 11.0, *)
 public class JomloTableViewSection {
     
     /**
@@ -52,3 +55,4 @@ public class JomloTableViewSection {
     }
     
 }
+#endif

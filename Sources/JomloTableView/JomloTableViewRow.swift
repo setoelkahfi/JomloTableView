@@ -7,12 +7,15 @@
 //
 
 import Foundation
+#if canImport(UIKit)
 import UIKit
 
 /**
  A singe row to be inserted in an instance of JomloTableViewSection. Subclass from this class and reference the identifier
  that used by its corresponding cell view. The cell is a subclass from JomloTableViewCell.
  */
+
+@available(iOS 11.0, tvOS 11.0, *)
 open class JomloTableViewRow: NSObject {
     
     // Callback for on row clicked.
@@ -60,3 +63,4 @@ open class JomloTableViewRow: NSObject {
     }
     
 }
+#endif
