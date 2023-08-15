@@ -7,6 +7,7 @@
 //
 
 import Foundation
+#if canImport(UIKit)
 import UIKit
 
 /**
@@ -15,6 +16,7 @@ import UIKit
  view controller that use table view free from conforming these two protocols.
  
  */
+@available(iOS 11.0, tvOS 11.0, *)
 public class JomloTableView: UITableView {
     
     // Table view section
@@ -97,3 +99,4 @@ extension JomloTableView: UITableViewDataSource {
     }
     
 }
+#endif
