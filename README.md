@@ -3,6 +3,8 @@
 [![Version](https://img.shields.io/cocoapods/v/JomloTableView.svg?style=flat)](http://cocoapods.org/pods/JomloTableView)
 [![License](https://img.shields.io/cocoapods/l/JomloTableView.svg?style=flat)](http://cocoapods.org/pods/JomloTableView)
 [![Platform](https://img.shields.io/cocoapods/p/JomloTableView.svg?style=flat)](http://cocoapods.org/pods/JomloTableView)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsetoelkahfi%2FJomloTableView%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/setoelkahfi/JomloTableView)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fsetoelkahfi%2FJomloTableView%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/setoelkahfi/JomloTableView)
 
 An iOS UITableView with detachable section and row. Use single section with multiple rows, or multiple sections with multiple rows.
 Conforming UITableViewDelegate and UITableViewDataSource in every view controller is a mundane and repetitive task. Move the delegate and the data source directly to the table view, and supply the table with section(s) and row(s). Free yourself from Massive-View-Controller.
